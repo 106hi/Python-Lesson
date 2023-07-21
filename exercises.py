@@ -1,4 +1,4 @@
-d = {'apple': 10, 'grape': 20, 'orange': 30}
-d['apple'] = d.get('apple', -1)
-d['pinapple'] = d.get('pinapple', -1)
-print(d)
+data1 = {'A': 1, 'B': 2}
+data2 = "hoge"
+data3 = {1, 2, 3, 4, 5}
+print(type(data1), type(data2), type(data3))
