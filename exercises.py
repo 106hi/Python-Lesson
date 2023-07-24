@@ -1,5 +1,8 @@
-nums = [1, 2, 4, 3, 2, 1, 5, 1]
-num2freq = {}
-for num in nums:
-    num2freq[num] = num2freq.get(num, 0) + 1
-print(num2freq)
+doc = 'i bought an apple .\ni ate it .\nit is delicious .'
+word2freq = {}
+sents = doc.split('\n')
+for sent in sents:
+    words = sent.split()
+    for word in words:
+        word2freq[word] = word2freq.get(word, 0) + 1
+print(word2freq)
