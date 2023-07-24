@@ -1,5 +1,5 @@
-dic = {'two': 324, 'four': 830, 'three': 493, 'one': 172, 'five': 1024}
-items_list = list(dic.items())
-sorted_items_list = sorted(items_list, key = lambda x: x[1])
-ans = [elem[0] for elem in sorted_items_list]
-print(ans)
+nums = [1, 2, 4, 3, 2, 1, 5, 1]
+num2freq = {}
+for num in nums:
+    num2freq[num] = num2freq.get(num, 0) + 1
+print(num2freq)
