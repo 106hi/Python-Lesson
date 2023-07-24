@@ -1,11 +1,3 @@
-a = 0
+a = 10
 b = 5
-try:
-    print(a / b)
-except ZeroDivisionError:
-    print('zero division')
-
-try:
-    print(b / a)
-except ZeroDivisionError:
-    print('zero division')
+print(a|b, a&b, a^b)
