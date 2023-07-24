@@ -1,3 +1,4 @@
-a = 10
-b = 5
-print(a|b, a&b, a^b)
+import math
+theta = math.pi/2
+ans = math.sin(theta)**2 + math.cos(theta)**2
+print(ans)
