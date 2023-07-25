@@ -1,0 +1,1 @@
+def divisor_list(num)
